@@ -1,4 +1,4 @@
-package com.linkedlist;
+package org.linkedlist;
 
 public class MainMethod {
     public static void main(String[] args) {
