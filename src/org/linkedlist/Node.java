@@ -1,4 +1,4 @@
-package com.linkedlist;
+package org.linkedlist;
 
 public class Node<T> {
     private T data;
@@ -17,10 +17,5 @@ public class Node<T> {
     }
     public Node<T> getNext(){
         return next;
-    }
-
-    @Override
-    public String toString() {
-        return super.toString();
     }
 }

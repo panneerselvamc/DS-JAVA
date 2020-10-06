@@ -1,4 +1,4 @@
-package com.linkedlist;
+package org.linkedlist;
 
 public class LinkedList<T> {
     private Node<T> head=null;
@@ -35,9 +35,13 @@ public class LinkedList<T> {
     }
 
     public void deleteHead(){
-        Node temp=head;
-        head=temp.getNext();
-        size--;
+        if(head!=null){
+            head=head.getNext();
+            size--;
+        }
+        else{
+            System.out.println("HEAD IS EMPTY");
+        }
     }
 
     public void delete(T data){
