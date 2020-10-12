@@ -1,4 +1,4 @@
-package org.stack.ds;
+package org.stack.impl;
 
 public class Stack<T> {
     private Element<T> top=null;

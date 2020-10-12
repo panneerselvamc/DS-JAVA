@@ -1,4 +1,4 @@
-package org.stack.ds;
+package org.stack.impl;
 
 public class Element<T> {
 
