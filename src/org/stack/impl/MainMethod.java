@@ -1,4 +1,4 @@
-package org.stack.ds;
+package org.stack.impl;
 
 public class MainMethod {
     public static void main(String[] args) throws Exception {
